@@ -1,4 +1,4 @@
- Vitamin Deficiency Detection System (AI + CNN + MLP)
+### Vitamin Deficiency Detection System (AI + CNN + MLP)
 
 This project is an AI-powered non-invasive vitamin deficiency detection system that identifies potential deficiencies using image-based analysis (CNN) and symptom-based text analysis (MLP).  
 The model analyzes visible markers on eyes, lips, tongue, and nails, as well as manually entered symptoms, then provides predicted deficiencies and recommended precautions.
