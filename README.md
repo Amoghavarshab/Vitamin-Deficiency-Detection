@@ -1,4 +1,4 @@
-# Vitamin Deficiency Detection System (AI + CNN + MLP)
+ Vitamin Deficiency Detection System (AI + CNN + MLP)
 
 This project is an AI-powered non-invasive vitamin deficiency detection system that identifies potential deficiencies using image-based analysis (CNN) and symptom-based text analysis (MLP).  
 The model analyzes visible markers on eyes, lips, tongue, and nails, as well as manually entered symptoms, then provides predicted deficiencies and recommended precautions.
@@ -162,3 +162,66 @@ See the [LICENSE](LICENSE) file for details.
 ---
 
 ⭐ If you like this project, give it a star on GitHub!
+
+## 🚀 How to Run the Project
+1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Amoghavarshab/Vitamin-Deficiency-Detection.git
+cd Vitamin-Deficiency-Detection
+2️⃣ Backend Setup (Flask + Models)
+Create & activate virtual environment (Windows):
+bash
+Copy code
+python -m venv venv
+venv\Scripts\activate
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Run the Flask server:
+bash
+Copy code
+python app.py
+By default the backend runs at:
+http://127.0.0.1:5000/
+
+3️⃣ Frontend Setup
+The frontend is a simple web interface made with HTML, CSS, JS, and Bootstrap.
+
+You can open the main HTML file directly in your browser (adjust the path according to your repo):
+
+text
+Copy code
+frontend/Project-V/index.html
+Or if you later rename it:
+
+text
+Copy code
+frontend/index.html
+The frontend will send requests to the Flask backend for:
+
+Image-based vitamin deficiency prediction (CNN)
+
+Symptom-based text prediction (MLP)
+
+📊 Model Details
+CNN Model for image classification (eyes, lips, tongue, nails)
+
+MLP Model for symptom text classification
+
+Trained on curated datasets of vitamin deficiencies
+
+You can add your accuracy graph, loss graph, and classification report images under a section like:
+
+documentation/ and embed them here with markdown image tags.
+
+🧰 Tech Stack Summary
+Frontend: HTML, CSS, JavaScript, Bootstrap
+
+Backend: Python, Flask
+
+ML: TensorFlow, Keras, OpenCV, scikit-learn
+
+Database: MySQL
+
+
