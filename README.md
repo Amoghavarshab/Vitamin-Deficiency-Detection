@@ -43,7 +43,7 @@ Database
 
 📁 Project Structure
 
-Project/
+```Project/
 │
 ├── frontend/
 │ ├── index.html
