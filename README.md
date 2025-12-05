@@ -163,9 +163,9 @@ See the [LICENSE](LICENSE) file for details.
 
 ⭐ If you like this project, give it a star on GitHub!
 
- 🚀 How to Run the Project
+ ### 🚀 How to Run the Project
 1️⃣ Clone the Repository
-bash
+```bash
 git clone https://github.com/Amoghavarshab/Vitamin-Deficiency-Detection.git
 cd Vitamin-Deficiency-Detection
 2️⃣ Backend Setup (Flask + Models)
