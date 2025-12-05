@@ -1,0 +1,81 @@
+.navbar-brand {
+    margin-left: 30px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+body{
+    background-color: #800080 ;
+}
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 400px;
+}
+.card:hover{
+    transform: translateY(10px);
+    background-color: #FA8072;
+    transition: transform 0.3s ease;
+    border: none;
+}
+.form-control{
+    width: 100%; 
+}
+
+.centered-form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.centered-result {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: auto;
+    width: 100%;
+}
+
+.custom-btn {
+    display: block;
+    width: 80%;
+    margin: auto;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: black;
+   
+}
+
+.alert-success {
+   
+    background-color: #d4edda;
+    font-weight: bold;
+   
+}
+
+
+
+
+
+.card-text {
+    text-align: justify;
+    white-space: pre-line; 
+    font-weight: bold;
+    /* text-justify: inter-word;  */
+}

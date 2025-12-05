@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/Css/about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          
+            <a class="navbar-brand" href="{{ url_for('home') }}">Vitamin Deficiencies</a>
+            
+         
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                    {% if session.get('email') %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+  <section class="two-column-layout" style="padding-top: 70px;"> 
+    <div class="container">
+      <div class="row">
+     
+        <div class="col-md-6 image-column">
+          <div class="d-flex flex-column">
+            <img src="{{ url_for('static', filename='images/about.png') }}" alt="Image 1" class="img-fluid mb-3"><br><br><br>
+            <img src="{{ url_for('static', filename='images/about1.jpg') }}" alt="Image 2" class="img-fluid">
+          </div>
+        </div>
+
+       
+        <div class="col-md-6 content-column">
+          <h2>About Us</h2>
+          <p>Welcome to Vitamin Deficiencies your trusted source for reliable information on vitamin deficiencies, their symptoms, and how to overcome them.</p>
+          <h2>Mission</h2>
+          <p>The mission of this project is to empower individuals with a user-friendly, accessible tool for early detection of vitamin deficiencies through advanced computer vision and data analysis. By leveraging the power of AI and machine learning, the system aims to provide accurate and reliable health insights based on visible symptoms and self-reported data. Our mission is to enhance awareness of nutritional health, enabling users to take proactive steps in managing their well-being through personalized recommendations and expert-backed guidance. This project seeks to bridge the gap between technology and everyday healthcare, offering a seamless experience that encourages early intervention and informed health choices.
+
+
+
+
+
+</p>
+            <h2>Vision</h2>
+          <p>
+            The system will allow users to upload images such as photos of their eyes, skin, or nails along with any relevant symptoms. Leveraging machine learning, specifically image recognition through deep learning models, the system will analyze the images to identify signs of potential deficiencies. Additionally, the symptoms inputted by the user will be cross-referenced with a database of known deficiency indicators to provide a more accurate diagnosis
+          </p>
+            </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <div class="footer text-center py-3">
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-md-3">
+          
+          <p>Amoghavarsha</p>
+          <p>amoghvarsh.b@gmail.com</p>
+          <p>6360355357</p>
+          <a href="https://linkedin.com/in/amoghavarshab" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+
+          <p>Damini BS</p>
+          <p>daminisriram@gmail.com</p>
+          <p>6362314925</p>
+          <a href="https://www.linkedin.com/in/damini-sriram- 064888283?utm_source=share&utm_campaign=share_via&utm_content=pro file&utm_medium=android_app" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        
+        <div class="col-md-3">
+
+          <p>Kruthik BV</p>
+          <p>kruthikbv4@gmail.com</p>
+          <p>9353150423</p>
+          <a href="https://www.linkedin.com/in/kruthikbv12" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+       
+        <div class="col-md-3">
+          
+          <p>Lakshmi R</p>
+          <p>lakshmirgowda2203@gmail.com</p>
+          <p>9008665654</p>
+          <a href="https://www.linkedin.com/in/lakshmi-r-71ab5724b" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

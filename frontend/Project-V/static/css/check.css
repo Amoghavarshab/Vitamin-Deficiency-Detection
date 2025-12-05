@@ -1,0 +1,39 @@
+
+.navbar-brand {
+    margin-left: 30px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+.container{
+    margin-top: 250px;
+}
+
+body{
+    background-color: #8e44ad;
+}
+
+
+
+.btn-hover.btn-primary:hover {
+    background-color: black;  
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-hover.btn-secondary:hover {
+    background-color: orange; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}

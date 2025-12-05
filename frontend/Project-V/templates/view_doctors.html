@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+
+        .container {
+            margin-top: 30px;
+            background-color: aquamarine;
+            border-radius: 14px;
+        }
+        h1 {
+            margin-bottom: 20px;
+           
+        }
+        table {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 15px;  
+            text-align: center;
+            border-radius: 8px;
+            border: none;
+        }
+        td {
+            background-color: #05050a; 
+            color: white;
+            font-weight: bold; 
+           
+        }
+        th{
+            background-color: blue; 
+            color: white;
+            font-weight: bold; 
+        }
+        .btn-back {
+            margin-top: 30px;
+            width: 150px;
+            margin-left: 430px;
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-back:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Doctors List</h1><hr>
+        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Doctor Name</th>
+                    <th>Hospital Name</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for doctor in doctor_infos %}
+                    <tr>
+                        <td>{{ doctor[0] }}</td>
+                        <td>{{ doctor[1] }}</td>
+                        <td>{{ doctor[2] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        
+        <a href="{{ url_for('home') }}" class="btn btn-back">Back</a><br><br>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

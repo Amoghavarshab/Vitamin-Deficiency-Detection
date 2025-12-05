@@ -1,0 +1,24 @@
+Vitamin K
+
+
+Deficiency occurs when the body lacks adequate amounts of vitamin K, a nutrient essential for blood clotting and
+bone health. Deficiency can arise due to several factors:
+
+Inadequate Dietary Intake: Vitamin K is found in green leafy vegetables, meats, and dairy products.
+ A diet low in these foods can lead to deficiency over time.
+
+Malabsorption Disorders: Conditions like celiac disease, Crohn's disease, or cystic fibrosis impair the body's 
+ability to absorb fat-soluble vitamins like vitamin K from the intestines.
+
+Liver Disorders: Since the liver plays a role in producing clotting factors dependent on vitamin K, 
+diseases like cirrhosis or hepatitis can interfere with vitamin K utilization, leading to deficiency.
+
+Use of Certain Medications: Long-term use of antibiotics can reduce gut bacteria that produce vitamin K, 
+and blood thinners like warfarin can interfere with vitamin K's role in clotting, sometimes leading 
+to a relative deficiency.
+
+Newborn Infants: Infants are at risk for vitamin K deficiency because they have low stores at birth 
+and their intestines are sterile, lacking the bacteria that help produce vitamin K. This is why newborns are
+often given a vitamin K injection shortly after birth.
+
+Vitamin K deficiency can lead to bleeding disorders and weakened bones if not addressed.

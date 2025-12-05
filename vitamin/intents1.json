@@ -1,0 +1,96 @@
+{
+    "intents": [
+        {
+            "tag": "a",
+            "patterns": ["Night Blindness, Dry Eyes, Dry Skin, Increased Infections,Hair Loss"],
+            "responses": [
+                "Vitamin A"
+            ],
+            "context": [""]
+        },
+
+        {
+            "tag": "po",
+            "patterns": ["Excessive Bleeding, Heavy Menstrual Bleeding, Blood in Urine or Stool, Bone Weakness, Slow Wound Healing"],
+            "responses": [
+                "Vitamin K"
+            ],
+            "context": [""]
+        },
+
+        {
+            "tag": "P",
+            "patterns": [
+                "Fatigue, Bone Pain, Muscle Weakness, Mood Changes, Frequent Illness, Hair Loss, Delayed Wound Healing"],
+            "responses": [
+                "Vitamin D"
+            ],
+            "contents": [""]
+        },
+        {
+            "tag": "P3",
+            "patterns": [
+                "Fatigue, Irritability, Muscle weakness, Nerve damage, Sore throat Red, inflamed tongue, Skin disorders"
+            ],
+            "responses": [
+                "Vitamin B"
+            ],
+            "contents": [""]
+        },
+        {
+            "tag": "a1",
+            "patterns": [
+                "Scurvy (bleeding gums), Fatigue, Weak immune function"
+            ],
+            "responses": [
+                "Vitamin C"
+            ],
+            "contents": [""]
+        },
+        {
+            "tag": "a2",
+            "patterns": [
+                "Muscle weakness, Vision problems,Immune system issues"
+            ],
+            "responses": [
+                "Vitamin E"
+            ],
+            "contents": ["Excessive bleeding, Bruising easily, Bone weakness"]
+        },
+        {
+            "tag": "a3",
+            "patterns": [
+                "Hair thinning, Rashes, Fatigue"
+            ],
+            "responses": [
+                "Vitamin H"
+            ],
+            "contents": [""]
+        },
+        {
+            "tag": "a4",
+            "patterns": [
+                "Poor circulation, Increased bruising, Skin issues"
+            ],
+            "responses": [
+                "Vitamin P"
+            ],
+            "contents": [""]
+        },
+        {
+            "tag": "a5",
+            "patterns": [
+                "Dry skin, Hair loss, Poor wound healing"
+            ],
+            "responses": [
+                "Vitamin F"
+            ],
+            "contents": [""]
+        }
+
+       
+]
+
+          
+    
+}
